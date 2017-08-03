@@ -1,0 +1,30 @@
+{
+    "name": "ruvents/manual-authentication-bundle",
+    "description": "RUVENTS Manual Authentication Bundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Valentin Udaltsov",
+            "email": "udaltsov@ruvents.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "symfony/config": "^3.0",
+        "symfony/security-bundle": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ruvents\\ManualAuthenticationBundle\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    }
+}
